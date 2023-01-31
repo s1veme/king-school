@@ -77,6 +77,8 @@ body {
   padding: 32px 24px;
   background-color: #f8f8f9;
   border-radius: 22px;
+  max-width: 289px;
+  width: 100%;
   text-align: center;
 }
 
@@ -148,7 +150,41 @@ body {
   display: none;
 }
 
+.advantages__item {
+  max-width: 289px !important;
+  width: 100% !important;
+  height: 162px !important;
+}
+
+
+
 @media screen and (max-width: 1000px) {
+  .hero {
+    margin-bottom: 32px;
+  }
+
+  .why-are-we {
+    margin-bottom: 32px;
+  }
+
+  .reviews {
+    margin-bottom: 32px;
+  }
+
+  .reviews__cards {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
+  .review {
+    flex-wrap: wrap;
+    max-width: 48%;
+  }
+
+  .social-networks {
+    margin-bottom: 32px;
+  }
+
   .cards--desktop {
     display: none !important;
   }
@@ -167,15 +203,15 @@ body {
 }
 
 .swiper-overflow-container {
-    overflow-x: hidden; /* prevent horizontal scroll */
+    overflow-x: hidden;
 }
 
 .swiper-overflow-container .container {
-    overflow: visible; /* if your container has overflow by default */
+    overflow: visible;
 }
 
 .swiper-overflow-container .swiper-container {
-    overflow: visible; /* remove swiper container overflow */
+    overflow: visible;
 }
 
 .swiper-overflow-container {
