@@ -150,6 +150,10 @@ body {
   display: none;
 }
 
+.cards--mobile {
+  display: none;
+}
+
 .advantages__item {
   max-width: 289px !important;
   width: 100% !important;
@@ -159,6 +163,14 @@ body {
 
 
 @media screen and (max-width: 1000px) {
+  .title {
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+  }
+
   .hero {
     margin-bottom: 32px;
   }
@@ -220,4 +232,54 @@ body {
 
 .swiper-container {
   overflow: visible;
+}
+
+@media screen and (max-width: 768px) {
+  .container, .container-main {
+    max-width: 640px;
+  }
+
+  .title {
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+  }
+
+  .review--desktop {
+    display: none !important;
+  }
+  .cards--mobile {
+    display: block;
+  }
+
+  .review {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container-main, .container {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container-main, .container {
+    max-width: 280px;
+  }
+
+  .container {
+    justify-content: center !important;
+  }
+
+  .hero__answer-button {
+    width: 280px;
+    height: 58px;
+  }
+
+  .support-link {
+    display: none;
+  }
 }

@@ -10,6 +10,16 @@ new Swiper('.slider-advantages', {
     breakpoints: {
         1000: {
             slidesPerView: 3,
+        },
+        768: {
+            slidesPerView: 2.5,
+            centeredSlidesBounds: true,
+            centeredSlides: true,
+        },
+        480: {
+            slidesPerView: 1.9,
+            centeredSlidesBounds: true,
+            centeredSlides: true,
         }
     },
 });
@@ -25,6 +35,16 @@ new Swiper('.slider-advantages-clients', {
         1000: {
             slidesPerView: 2.5,
             centeredSlidesBounds: true,
+        },
+        768: {
+            slidesPerView: 2.5,
+            centeredSlidesBounds: true,
+            centeredSlides: true,
+        },
+        480: {
+            slidesPerView: 1.9,
+            centeredSlidesBounds: true,
+            centeredSlides: true,
         }
     },
 });
