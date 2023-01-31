@@ -1,0 +1,187 @@
+@import url("help.css");
+
+html,
+body {
+  height: 100%;
+}
+
+.main {
+  flex: 1 1 100%;
+}
+
+.header {
+  padding: 9px 0;
+  background-color: #fff;
+  box-shadow:
+    0 115px 69px rgb(11 11 11 / 2%),
+    0 51px 51px rgb(11 11 11 / 3%),
+    0 13px 28px rgb(11 11 11 / 3%),
+    0 0 0 rgb(11 11 11 / 3%);
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.container-main {
+  max-width: 1216px;
+  margin: 0 auto;
+  min-height: calc(100vh - 64px);
+  overflow: visible;
+}
+
+.outline-link {
+  color: #7000ff;
+  font-size: 16px;
+  font-family: "SF Pro Display", sans-serif;
+  line-height: 140%;
+  font-weight: 400;
+  border: 1px solid #7000ff;
+  border-radius: 4px;
+  padding: 12px 24px;
+}
+
+.filled-button {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 24px;
+  line-height: 140%;
+  color: #fff;
+  background: #7000ff;
+  border-radius: 4px;
+  padding: 12px 64px;
+}
+
+.title {
+  font-family: "PF Highway Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 140%;
+  color: #333;
+}
+
+.title-block {
+  font-family: "PF Highway Sans Pro", sans-serif;
+  font-size: 40px;
+  line-height: 140%;
+  color: #333;
+}
+
+.cards {
+  column-gap: 20px;
+  row-gap: 24px;
+}
+
+.card {
+  padding: 32px 24px;
+  background-color: #f8f8f9;
+  border-radius: 22px;
+  text-align: center;
+}
+
+.card__text {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333;
+}
+
+.card__title {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 24px;
+  line-height: 140%;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.card__link {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  padding: 12px 5px;
+}
+
+.card__img {
+  margin-bottom: 12px;
+}
+
+.card__name {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333;
+}
+
+.review {
+  max-width: 33%;
+  padding: 24px 32px;
+}
+
+.social-networks__item {
+  width: 100%;
+  padding: 24px 32px;
+  background: #f8f8f9;
+  border-radius: 22px;
+}
+
+.social-networks__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.social-networks__item-text {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #333;
+}
+
+.color-purple {
+  color: #7000ff;
+}
+
+.cards--tablet {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .cards--desktop {
+    display: none !important;
+  }
+
+  .cards--tablet {
+    display: block;
+  }
+
+  .container-main {
+    max-width: 808px;
+  }
+
+  .container {
+    max-width: 808px;
+  }
+}
+
+.swiper-overflow-container {
+    overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+.swiper-overflow-container .container {
+    overflow: visible; /* if your container has overflow by default */
+}
+
+.swiper-overflow-container .swiper-container {
+    overflow: visible; /* remove swiper container overflow */
+}
+
+.swiper-overflow-container {
+  overflow-x: hidden;
+}
+
+.swiper-container {
+  overflow: visible;
+}

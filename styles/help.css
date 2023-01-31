@@ -1,0 +1,55 @@
+button {
+  cursor: pointer;
+}
+
+a {
+  display: block;
+}
+
+.d-f {
+  display: flex !important;
+}
+
+.ta-s {
+  text-align: start;
+}
+
+.ai-c {
+  align-items: center !important;
+}
+
+.jc-sb {
+  justify-content: space-between !important;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.fw-w {
+  flex-wrap: wrap;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.pb-64 {
+  padding-bottom: 64px;
+}
