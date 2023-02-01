@@ -20,18 +20,18 @@ body {
 }
 
 .container {
-  max-width: 1216px;
+  max-width: 1246px;
+  padding: 0 15px;
   margin: 0 auto;
   overflow: visible;
-  padding: 0 15px;
 }
 
 .container-main {
-  max-width: 1216px;
+  max-width: 1246px;
+  padding: 0 15px;
   margin: 0 auto;
   min-height: calc(100vh - 64px);
   overflow: visible;
-  padding: 0 15px;
 }
 
 .outline-link {
@@ -226,10 +226,7 @@ body {
     display: block;
   }
 
-  .container-main {
-    max-width: 808px;
-  }
-
+  .container-main,
   .container {
     max-width: 808px;
   }
