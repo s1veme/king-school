@@ -23,6 +23,7 @@ body {
   max-width: 1216px;
   margin: 0 auto;
   overflow: visible;
+  padding: 0 15px;
 }
 
 .container-main {
@@ -30,6 +31,7 @@ body {
   margin: 0 auto;
   min-height: calc(100vh - 64px);
   overflow: visible;
+  padding: 0 15px;
 }
 
 .outline-link {
@@ -44,6 +46,7 @@ body {
 }
 
 .filled-button {
+  display: inline-block;
   font-family: "SF Pro Display", sans-serif;
   font-size: 24px;
   line-height: 140%;
@@ -160,7 +163,27 @@ body {
   height: 162px !important;
 }
 
-@media screen and (max-width: 1000px) {
+.swiper-overflow-container {
+  overflow-x: hidden;
+}
+
+.swiper-overflow-container .container {
+  overflow: visible;
+}
+
+.swiper-overflow-container .swiper-container {
+  overflow: visible;
+}
+
+.swiper-overflow-container {
+  overflow-x: hidden;
+}
+
+.swiper-container {
+  overflow: visible;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 321px) {
   .title {
     font-family: "SF Pro Display", sans-serif;
     font-style: normal;
@@ -210,26 +233,6 @@ body {
   .container {
     max-width: 808px;
   }
-}
-
-.swiper-overflow-container {
-  overflow-x: hidden;
-}
-
-.swiper-overflow-container .container {
-  overflow: visible;
-}
-
-.swiper-overflow-container .swiper-container {
-  overflow: visible;
-}
-
-.swiper-overflow-container {
-  overflow-x: hidden;
-}
-
-.swiper-container {
-  overflow: visible;
 }
 
 @media screen and (max-width: 768px) {
