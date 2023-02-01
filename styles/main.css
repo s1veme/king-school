@@ -183,6 +183,54 @@ body {
   overflow: visible;
 }
 
+.question__input {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  border: 1px solid #4e4e4e;
+  border-radius: 4px;
+  padding: 12px 24px;
+  width: 100%;
+  text-align: center;
+}
+
+.answer {
+  padding: 24px 32px;
+  background: #f8f8f9;
+  border-radius: 22px;
+}
+
+.answer:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.answer__title {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.answer__exercise {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4e4e4e;
+}
+
+.answer__text {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: #7000ff;
+}
+
+.answer__img {
+  width: 30%;
+  border: 1px solid #7000ff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1000px) and (min-width: 321px) {
   .title {
     font-family: "SF Pro Display", sans-serif;
