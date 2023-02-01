@@ -160,11 +160,9 @@ body {
   height: 162px !important;
 }
 
-
-
 @media screen and (max-width: 1000px) {
   .title {
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: "SF Pro Display", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -215,15 +213,15 @@ body {
 }
 
 .swiper-overflow-container {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .swiper-overflow-container .container {
-    overflow: visible;
+  overflow: visible;
 }
 
 .swiper-overflow-container .swiper-container {
-    overflow: visible;
+  overflow: visible;
 }
 
 .swiper-overflow-container {
@@ -235,12 +233,13 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .container, .container-main {
+  .container,
+  .container-main {
     max-width: 640px;
   }
 
   .title {
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: "SF Pro Display", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -250,6 +249,7 @@ body {
   .review--desktop {
     display: none !important;
   }
+
   .cards--mobile {
     display: block;
   }
@@ -260,13 +260,15 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  .container-main, .container {
+  .container-main,
+  .container {
     max-width: 440px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .container-main, .container {
+  .container-main,
+  .container {
     max-width: 280px;
   }
 
@@ -281,5 +283,29 @@ body {
 
   .support-link {
     display: none;
+  }
+
+  .cards--mobile {
+    display: none;
+  }
+
+  .cards--tablet {
+    display: none;
+  }
+
+  .cards--desktop {
+    display: block !important;
+  }
+
+  .review--desktop {
+    display: block !important;
+  }
+
+  .review:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  .card:not(:last-child) {
+    margin-bottom: 12px;
   }
 }
