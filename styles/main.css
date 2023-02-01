@@ -267,6 +267,43 @@ body {
   .container {
     max-width: 440px;
   }
+
+  .container {
+    justify-content: center !important;
+  }
+
+  .hero__answer-button {
+    width: 280px;
+    height: 58px;
+  }
+
+  .support-link {
+    display: none;
+  }
+
+  .cards--mobile {
+    display: none;
+  }
+
+  .cards--tablet {
+    display: none;
+  }
+
+  .cards--desktop {
+    display: block !important;
+  }
+
+  .review--desktop {
+    display: block !important;
+  }
+
+  .review:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  .card:not(:last-child) {
+    margin-bottom: 12px;
+  }
 }
 
 @media screen and (max-width: 320px) {
