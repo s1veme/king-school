@@ -61,3 +61,7 @@ a {
 .pb-64 {
   padding-bottom: 64px;
 }
+
+.is-hidden {
+  display: none !important;
+}
